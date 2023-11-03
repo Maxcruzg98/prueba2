@@ -1,0 +1,49 @@
+<ion-header  [translucent]="true">
+  <ion-toolbar class="navbar">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"> </ion-back-button>
+      <ion-title>Registro usuario</ion-title>
+    </ion-buttons> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true"  class="ion-padding centrar">
+  <ion-card>
+
+    <ion-card-header>
+      <ion-title>  Ingrese sus datos</ion-title>
+    </ion-card-header>
+
+    <ion-item class="ion-margin-top input">
+      <ion-input  label="Usuario" labelPlacement="floating" placeholder="Ingrese su usuario"></ion-input>
+    </ion-item>
+
+    <ion-item class="ion-margin-top input">
+      <ion-input  label="Correo"  labelPlacement="floating" placeholder="Ingrese su contraseña"></ion-input>
+    </ion-item>
+
+    <ion-item class="ion-margin-top input">
+      <ion-input  label="Password" type="password" labelPlacement="floating" placeholder="Ingrese su usuario"></ion-input>
+    </ion-item>
+
+    <ion-item class="ion-margin-top input">
+      <ion-input  label="Confirmar Password" type="password" labelPlacement="floating" placeholder="Ingrese su contraseña"></ion-input>
+    </ion-item>
+
+    <ion-item class="ion-margin-top input">
+      <ion-input  label="Nombre" labelPlacement="floating" placeholder="Ingrese su usuario"></ion-input>
+    </ion-item>
+
+    <ion-item class="ion-margin-top input">
+      <ion-input  label="Apellido"  labelPlacement="floating" placeholder="Ingrese su contraseña"></ion-input>
+    </ion-item>
+
+
+    
+    <ion-button expand="block"   class="boton ion-margin-top">Aceptar</ion-button>
+
+
+
+  </ion-card>
+  
+</ion-content>

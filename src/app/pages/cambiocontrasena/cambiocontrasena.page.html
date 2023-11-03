@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="navbar">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"> </ion-back-button>
+    </ion-buttons>
+    <ion-title>Recuperar Password</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-img class="imagen" src="assets/forgot.avif"></ion-img>
+    <ion-card-header>
+      <ion-card-title class="centrado"> Verifique sus datos para el cambio </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="centrado" >
+        <ion-item class="fondo input ion-margin-top" lines="none">
+          <ion-input label="Usuario" labelPlacement="floating" placeholder="Ingresar Correo (Usuario)"></ion-input>
+        </ion-item>
+        
+        <ion-item class="fondo input ion-margin-top" lines="none">
+          <ion-input type="password" label="Confirmar Password" labelPlacement="floating"  placeholder="Ingresar contraseña"></ion-input>
+        </ion-item>
+        <ion-item class="fondo input ion-margin-top" lines="none">
+          <ion-input type="password" label="Confirmar Password" labelPlacement="floating"  placeholder="Ingresar nueva password"></ion-input>
+        </ion-item>
+      
+        <ion-button  class="degradado ion-margin-top boton" expand="block" > Cambiar </ion-button>  
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  
+</ion-content>
